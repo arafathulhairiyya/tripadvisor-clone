@@ -1,0 +1,171 @@
+body {
+ font-family: 'Gabarito', sans-serif;
+  font-optical-sizing: auto;
+   margin: 0px 80px 0px 80px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+
+}
+
+
+ 
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+}
+
+.header__s1 {
+  display: flex;
+  align-items: center;
+
+}
+
+.header__s2 {
+  display: flex;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.header__s2 p {
+  padding: 10px;
+  font-weight: 600;
+  border: solid transparent 1px;
+  border-radius: 25px;
+  margin: 10px;
+  transition: background-color 1s;
+}
+
+.header__s2 p:hover {
+  background-color: rgb(193, 195, 193);
+
+  cursor: pointer;
+}
+
+.header__s3 {
+  display: flex;
+}
+
+.header__s3__languageandcurrency {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-weight: 600;
+  border: solid transparent 1px;
+  border-radius: 25px;
+  transition: background-color 1s;
+
+}
+
+.header__s3__languageandcurrency:hover {
+  background-color: rgb(193, 195, 193);
+
+  cursor: pointer;
+
+}
+
+.header__s3__languageandcurrency img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+
+}
+
+.header__s3__signin {
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  border: solid black 1px;
+  border-radius: 25px;
+  padding: 0px 10px 0px 10px;
+  transition: opacity 0.5s;
+  display: flex;
+
+}
+
+.header__s3__signin p {
+  margin: 10px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.header__s3__signin:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.where-to {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.where-to h1 {
+  font-size: 50px;
+  font-weight: 600;
+
+
+}
+
+.suggestions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+ 
+  
+
+}
+
+.suggestions p {
+  margin: 25px;
+  margin-top: 10px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 600;
+   margin-left: 0px;
+   transition: border-bottom 1s;
+   border: transparent solid 1px;
+   display: flex;
+  align-items: center;
+   
+
+}
+.suggestions p:hover {
+   border-bottom: solid 1px black;
+  cursor: pointer;
+  }
+
+.suggestions img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+
+}

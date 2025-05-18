@@ -1,0 +1,148 @@
+.first-picture {
+    position: relative;
+}
+
+.first-picture img {
+    margin: 50px;
+    width: 1300px;
+    border-radius: 25px;
+    height: 700px;
+    flex-grow: 1;
+
+
+
+}
+
+.first-picture__text {
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    color: white;
+    padding-top: 150px;
+
+
+}
+
+.first-picture__text h1 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.first-picture__text p {
+    font-size: 20px;
+    width: 900px;
+    margin: 0px;
+}
+
+.first-picture__text h3 {
+    border: solid 1px white;
+    width: fit-content;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.chennai {
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.chennai h2 {
+    margin-bottom: 10px;
+}
+
+.chennai p {
+    padding: 0;
+    margin: 0;
+}
+
+.chennai-card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.chennai-card1,
+.chennai-card2,
+.chennai-card3,
+.chennai-card4 {
+    position: relative;
+}
+
+.chennai-card1 img {
+    width: 300px;
+    height: 272px;
+    border-radius: 10px;
+
+
+}
+
+.chennai-card1 H3 {
+    position: absolute;
+    top: 100%;
+   color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.chennai-card2 img {
+    width: 300px;
+    height: 272px;
+    border-radius: 10px;
+
+}
+
+.chennai-card2 H3 {
+    position: absolute;
+    top: 100%;
+
+
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.chennai-card3 img {
+    width: 300px;
+    height: 272px;
+    border-radius: 10px;
+
+}
+
+.chennai-card3 H3 {
+    position: absolute;
+    top: 100%;
+
+
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.chennai-card4 img {
+    width: 300px;
+    height: 272px;
+    border-radius: 10px;
+
+}
+
+.chennai-card4 H3 {
+    position: absolute;
+    top: 100%;
+
+
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
